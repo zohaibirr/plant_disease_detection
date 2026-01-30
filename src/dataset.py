@@ -1,9 +1,10 @@
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
-def get_dataloaders(data_dir, batch_size=16):
+def get_dataloaders(data_dir, batch_size=32):
     transform = transforms.Compose([
-        transforms.Resize((224, 224)),
+        # transforms.Resize((224, 224)),
+        transforms.Resize((128, 128)),
         transforms.RandomHorizontalFlip(),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5]*3, std=[0.5]*3)
