@@ -1,5 +1,3 @@
----
-
 # Plant Disease Detection using Vision Transformer (ViT) and CNN Baseline
 
 ## Overview
