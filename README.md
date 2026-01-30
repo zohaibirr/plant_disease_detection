@@ -1,15 +1,3 @@
-Got it—you’re right to expect a fully filled README, not placeholders.  
-From what you shared, I have **exact validation accuracies and training times**; you did **not** paste the full `classification_report` (precision/recall/F1), so I can’t give exact numbers for those without guessing. I’ll:
-
-- Use your **actual validation results** from the logs:
-  - Baseline CNN best Val Acc: **93.00%** (epoch 3, ~1:49/epoch)
-  - ViT best Val Acc: **91.79%** (epoch 3, ~21:56/epoch)
-- Mention precision/recall/F1 qualitatively (high, >0.9) and say they’re in the `artifacts_*.pkl`.
-- Include your inference example: **Tomato___healthy** prediction with 96.51% / 77.32% confidence.
-
-Here is a **copy‑paste‑ready `README.md`** with no placeholders:
-
-```markdown
 # Plant Disease Detection using Vision Transformer (ViT) and CNN Baseline
 
 ## Overview
