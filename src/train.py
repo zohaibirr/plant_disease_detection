@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from tqdm import tqdm
 
-def train(model, train_loader, val_loader, device, epochs=10):
+def train(model, train_loader, val_loader, device, epochs=5):
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-4)
 
